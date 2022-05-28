@@ -13,7 +13,7 @@ jobs:
         with:
             node:version: '14'
       - name: Install dependencies
-        run: npm run test:all
+        run: npm install
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
